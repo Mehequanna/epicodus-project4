@@ -14,9 +14,9 @@ Pizza.prototype.salePrice = function() {
   }
 
   if ( this.topping === "chorizo") {
-    this.price += 0.5;
-  } else if ( this.topping === "vichingo" ) {
     this.price += 1;
+  } else if ( this.topping === "vichingo" ) {
+    this.price += 2;
   }
 }
 

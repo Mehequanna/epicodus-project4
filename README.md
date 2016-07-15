@@ -10,8 +10,8 @@ The default pizza will be a small cheese pizza for $10.
 
 1. If the user chooses a medium pizza, $1 will be added to the base price of $10.
 2. If the user chooses a large pizza, $2 will be added to the base price of $10.
-3. If the user chooses pepperoni as a topping, $0.50 will be added to the base price of $10.
-4. If the user chooses supreme, $1 will be added to the base price of $1.
+3. If the user chooses pepperoni as a topping, $1 will be added to the base price of $10.
+4. If the user chooses supreme, $2 will be added to the base price of $1.
 
 So the price for a medium cheese pizza would be $11.
 The price for a large supreme would be $13.
