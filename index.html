@@ -19,12 +19,12 @@
     <script src="js/scripts.js"></script>
 
   </head>
+  <header>
+    <h1 class="text-center">Sandro's Pizza</h1>
+    <h2 class="text-center"> Welcome to Sandro's Pizza. Please choose your order below. Hit submit to see the total price.</h2>
+  </header>
   <body>
     <div class="container">
-      <h1 class="text-center">Sandro's Pizza</h1>
-      <p class="text-center">
-        Welcome to Sandro's Pizza. Please choose your order below. Hit submit to see the total price.
-      </p>
       <form id="orderForm">
         <div class="questions1">
           <div class"form-group">
@@ -33,7 +33,7 @@
             <label class="radio-inline">
               <input type="radio" name="size" value="small">
               Small <br>
-              <img src="img/cheese.jpg" alt="Small Pizza" />
+              <img class="small" src="img/cheese.jpg" alt="Small Pizza" />
             </label>
             <label class="radio-inline">
               <input type="radio" name="size" value="medium">
@@ -71,10 +71,12 @@
         <button type="submit" class="btn btn-danger">Submit Order!</button>
       </form>
       <div id="orderReceipt">
-        <h2>Thank You!</h2>
-        <p>
-          Your order of a <span id="sizeReceipt"></span> <span id="toppingReceipt"></span> pizza will be <span id="priceReceipt"></span>! It will be ready for you to pick up in 30 minutes.
+        <h2 class="text-center">Thank You!</h2>
+        <p class="text-center">
+          Your order of a <span id="sizeReceipt"></span> <span id="toppingReceipt"></span> pizza will be $<span id="priceReceipt"></span>! It will be ready for you to pick up in 30 minutes.
         </p>
+        <br>
+        <img id="sandro" src="img/sandro.jpg" alt="Picture of Sandro" />
       </div>
     </div>
   </body>
