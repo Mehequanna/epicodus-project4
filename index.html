@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Template</title>
+    <title>Pizza Palace</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -20,8 +20,56 @@
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-
+    <div class="container">
+      <h1 class="text-center">Sandro's Pizza</h1>
+      <p class="text-center">
+        Welcome to Sandro's Pizza. Please choose your order below. Hit submit to see the total price.
+      </p>
+      <form id="orderForm">
+        <div class="questions1">
+          <div class"form-group">
+            <h4>Pizza Size</h4>
+            <p>Choose your pizza size:</p>
+            <label class="radio">
+              <input type="radio" name="size" value="small">
+              Small
+            </label>
+            <label class="radio">
+              <input type="radio" name="size" value="medium">
+              Medium
+            </label>
+            <label class="radio">
+              <input type="radio" name="size" value="large">
+              Large
+            </label>
+          </div>
+        </div>
+        <div class="questions2">
+          <div class"form-group">
+            <h4>Pizza Toppings</h4>
+            <p>Choose your pizza toppings:</p>
+            <label class="radio">
+              <input type="radio" name="topping" value="cheese">
+              Cheese
+            </label>
+            <label class="radio">
+              <input type="radio" name="topping" value="pepperoni">
+              Pepperoni
+            </label>
+            <label class="radio">
+              <input type="radio" name="topping" value="supreme">
+              Supreme
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit Order!</button>
+      </form>
+      <div id="orderReceipt">
+        <h2>Thank You!</h2>
+        <p>
+          Your order of a <span id="sizeReceipt"></span> <span class="toppingReceipt"></span> pizza will be <span class="priceReceipt"></span>! It will be ready for you to pick up in 30 minutes.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
