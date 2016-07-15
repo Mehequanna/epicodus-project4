@@ -1,3 +1,15 @@
 #orderReceipt {
   display: none;
 }
+
+.medium {
+  width: 200px;
+}
+
+.large {
+  width: 250px;
+}
+
+img {
+  width: 150px;
+}

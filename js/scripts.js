@@ -13,9 +13,9 @@ Pizza.prototype.salePrice = function() {
     this.price += 2;
   }
 
-  if ( this.topping === "pepperoni") {
+  if ( this.topping === "chorizo") {
     this.price += 0.5;
-  } else if ( this.topping === "supreme" ) {
+  } else if ( this.topping === "vichingo" ) {
     this.price += 1;
   }
 }
@@ -29,14 +29,11 @@ $(document).ready(function() {
 
     var pizzaSize = $("input:radio[name=size]:checked").val();
     var pizzaTopping = $("input:radio[name=topping]:checked").val();
-    console.log(pizzaTopping);
 
     var userPizza = new Pizza(pizzaSize, pizzaTopping);
 
     userPizza.salePrice();
-    console.log(userPizza.price);
-    console.log(userPizza.size);
-    console.log(userPizza.topping);
+
     $("#sizeReceipt").html(userPizza.size);
     $("#toppingReceipt").html(userPizza.topping);
     $("#priceReceipt").html(userPizza.price);
