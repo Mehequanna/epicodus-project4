@@ -9,15 +9,15 @@ This is based on a friend of mine's shop in Taiwan. It is not a real order form.
 
 ## Specifications
 
-The default pizza will be a small cheese pizza for $10.
+The default pizza will be a small cheese pizza for 100NTD.
 
-1. If the user chooses a medium pizza, $1 will be added to the base price of $10.
-2. If the user chooses a large pizza, $2 will be added to the base price of $10.
-3. If the user chooses pepperoni as a topping, $1 will be added to the base price of $10.
-4. If the user chooses supreme, $2 will be added to the base price of $1.
+1. If the user chooses a medium pizza, 100NTD will be added to the base price of 100NTD.
+2. If the user chooses a large pizza, 200NTD will be added to the base price of 100NTD.
+3. If the user chooses chorizo as a topping, 100NTD will be added to the base price of 100NTD.
+4. If the user chooses vichingo, 200NTD will be added to the base price of 100NTD.
 
-So the price for a medium cheese pizza would be $11.
-The price for a large supreme would be $13.
+So the price for a medium cheese pizza would be 200NTD.
+The price for a large vichingo would be 500NTD.
 
 ##Technologies
 JavaScript, JQuery, BootStrap, HTML and CSS
