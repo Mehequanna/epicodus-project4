@@ -27,6 +27,9 @@
     <div class="container">
 
       <h3>Welcome to Sandro's Pizza. Please choose your order below. Hit submit to see the total price.</h3>
+      <p>
+        The base pizza is a small cheese for 100NTD.
+      </p>
 
       <!-- Order form for pizzas -->
       <form id="orderForm">
@@ -41,12 +44,12 @@
             </label>
             <label class="radio-inline">
               <input type="radio" name="size" value="medium">
-              Medium <br>
+              Medium +100NTD <br>
               <img class="medium" src="img/cheese.jpg" alt="Medium Pizza" />
             </label>
             <label class="radio-inline">
               <input type="radio" name="size" value="large">
-              Large <br>
+              Large +200NTD<br>
               <img class="large" src="img/cheese.jpg" alt="Large Pizza" />
             </label>
           </div>
@@ -62,12 +65,12 @@
             </label>
             <label class="radio-inline">
               <input type="radio" name="topping" value="chorizo">
-              Chorizo <br>
+              Chorizo +100NTD <br>
               <img class="large" src="img/chorizo.jpg" alt="Large Pizza" />
             </label>
             <label class="radio-inline">
               <input type="radio" name="topping" value="vichingo">
-              Vichingo <br>
+              Vichingo +200NTD<br>
               <img class="large" src="img/vichingo.jpg" alt="Large Pizza" />
             </label>
           </div>
@@ -79,7 +82,7 @@
       <div id="orderReceipt">
         <h2 class="text-center">Thank You!</h2>
         <p class="text-center">
-          Your order of a <span id="sizeReceipt"></span> <span id="toppingReceipt"></span> pizza will be $<span id="priceReceipt"></span>NTD! It will be ready for you to pick up in 30 minutes.
+          Your order of a <span id="sizeReceipt"></span> <span id="toppingReceipt"></span> pizza will be <span id="priceReceipt"></span>NTD! It will be ready for you to pick up in 30 minutes.
         </p>
         <!-- NTD is Tawainese Dollars -->
         <br>
