@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sandro's Pizza</title>
+    <title>Sandro's Pizzeria</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -20,11 +20,15 @@
 
   </head>
   <header>
-    <h1 class="text-center">Sandro's Pizza</h1>
-    <h2 class="text-center"> Welcome to Sandro's Pizza. Please choose your order below. Hit submit to see the total price.</h2>
+    <h1 class="text-center">Sandro's Pizzeria</h1>
+    <h2 class="text-center"> Located at 竹東鎮三民街63號 (大同國小正門直走) Hsinchu Taiwan!</h2>
   </header>
   <body>
     <div class="container">
+
+      <h3>Welcome to Sandro's Pizza. Please choose your order below. Hit submit to see the total price.</h3>
+
+      <!-- Order form for pizzas -->
       <form id="orderForm">
         <div class="questions1">
           <div class"form-group">
@@ -70,11 +74,14 @@
         </div>
         <button type="submit" class="btn btn-danger">Submit Order!</button>
       </form>
+
+      <!-- Receipt shown when order is finished. -->
       <div id="orderReceipt">
         <h2 class="text-center">Thank You!</h2>
         <p class="text-center">
-          Your order of a <span id="sizeReceipt"></span> <span id="toppingReceipt"></span> pizza will be $<span id="priceReceipt"></span>! It will be ready for you to pick up in 30 minutes.
+          Your order of a <span id="sizeReceipt"></span> <span id="toppingReceipt"></span> pizza will be $<span id="priceReceipt"></span>NTD! It will be ready for you to pick up in 30 minutes.
         </p>
+        <!-- NTD is Tawainese Dollars -->
         <br>
         <img id="sandro" src="img/sandro.jpg" alt="Picture of Sandro" />
       </div>

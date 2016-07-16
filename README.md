@@ -4,6 +4,9 @@ Pizza Ordering Website
 ## Features
 This page will allow the user to pick a size and topping for a pizza and have a price for purchase returned to them.
 
+## About Page
+This is based on a friend of mine's shop in Taiwan. It is not a real order form. The pictures of the pizza are real. I can tell you they are amazing! If you are ever in Taiwan go to the address listed in the header ;)
+
 ## Specifications
 
 The default pizza will be a small cheese pizza for $10.
