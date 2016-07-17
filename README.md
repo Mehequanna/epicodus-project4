@@ -11,32 +11,17 @@ This is based on a friend of mine's shop in Taiwan. It is not a real order form.
 
 Page returns price of pizza based on topping and size.
 
-Input: Small, Cheese
-Output: 100NTD
-
-Input: Small, Chorizo
-Output: 200NTD
-
-Input: Small, Vichingo
-Output: 300NTD
-
-Input: Medium, Cheese
-Output: 200NTD
-
-Input: Medium, Chorizo
-Output: 300NTD
-
-Input: Medium, Vichingo
-Output: 400NTD
-
-Input: Large, Cheese
-Output: 300NTD
-
-Input: Large, Chroizo
-Output: 400NTD
-
-Input: Large, Vichingo
-Output: 500NTD
+| Input | Output|
+|---|---|
+| Small, Cheese|100NTD|
+| Small, Chorizo|200NTD|
+| Small, Vichingo|300NTD|
+| Medium, Cheese|200NTD|
+| Medium, Chorizo|300NTD|
+| Medium, Vichingo|400NTD|
+| Large, Cheese|300NTD|
+| Large, Chorizo|400NTD|
+| Large, Vichingo|500NTD|
 
 ##Technologies
 JavaScript, JQuery, BootStrap, HTML and CSS
