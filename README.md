@@ -7,8 +7,9 @@ This page will allow the user to pick a size and topping for a pizza and have a 
 ## About Page
 This is based on a friend of mine's shop in Taiwan. It is not a real order form. The pictures of the pizza are real. I can tell you they are amazing! If you are ever in Taiwan go to the address listed in the header ;)
 
-## Specifications
+![screenshot of project](pizzashop.png)
 
+## Specifications
 Page returns price of pizza based on topping and size.
 
 | Input | Output|
@@ -28,12 +29,13 @@ JavaScript, JQuery, BootStrap, HTML and CSS
 
 ## Usage
 To view the site, you can go to https://mehequanna.github.io/epicodus-project4.
-To use the code, you can clone the repository at --Use your addresses [https://github.com/Mehequanna/epicodus-project4](https://github.com/Mehequanna/epicodus-project4).
+
+To use the code, you can clone the repository at [https://github.com/Mehequanna/epicodus-project4](https://github.com/Mehequanna/epicodus-project4).
 
 1. Download the github repository.
 2. Open the index.html file in your browser.
 
-## Author/s
+## Author
 Stephen Emery
 
 ##License
