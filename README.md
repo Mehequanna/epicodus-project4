@@ -24,7 +24,7 @@ Page returns price of pizza based on topping and size.
 | Large, Chorizo|400NTD|
 | Large, Vichingo|500NTD|
 
-##Technologies
+## Technologies
 JavaScript, JQuery, BootStrap, HTML and CSS
 
 ## Usage
@@ -38,6 +38,6 @@ To use the code, you can clone the repository at [https://github.com/Mehequanna/
 ## Author
 Stephen Emery
 
-##License
+## License
 This work can be used under the MIT License.
 Copyright (c) 2016 Stephen Emery
